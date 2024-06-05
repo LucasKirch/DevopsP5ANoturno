@@ -1,12 +1,14 @@
 
-Turma: SPI P5A
-Grupo: 
+Turma: Sistemas para internet P5A - noite
 
+Grupo: Lucas Soares Kirchesch - Matheus Alcantara - Jose Gomes - Luciano Lira - Alexander Dore - Rafhael Matias 
 
 
 Desenvolvimento: Foi feito um projeto em react native, que realiza busca de cep, através da api https://viacep.com.br/ws, neste projeto foi 
-	implementado e configurado um arquivo chamado DockerFile para possibilitar a criação de uma ou mais imagens no docker, logo em 	seguido foi adicionado e configurado um outro arquivo chamado docker-compose.yml, que possibilita a orquestração de múltiplos 	contêineres, definindo qual a finalidade de cada um e por fim foi adicionado e configurado um ultimo arquivo chamado nginx.conf,
-	que permite o balanceamento de carga da aplicação
+	implementado e configurado um arquivo chamado DockerFile para possibilitar a criação de uma ou mais imagens no docker, logo em 	seguidA
+	foi adicionado e configurado um outro arquivo chamado docker-compose.yml, que possibilita a orquestração de múltiplos 	contêineres, 
+	definindo qual a finalidade de cada um e por fim foi adicionado e configurado um ultimo arquivochamado nginx.conf, que permite o 
+	balanceamento de carga da aplicação por meio da tecnologia NGINX.
 
 Ferramentas: REACT/ REACT-NATIVE/ DOCKER/DOCKER-COMPOSE/ SSMS-SQLSERVER / NGINX
 
