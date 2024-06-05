@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: minha-aplicacao:latest
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "19000:19000"
+    depends_on:
+      - sqlserver
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "user"
+      ACCEPT_EULA: "123456"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+volumes:
+  sqlserver_data:
